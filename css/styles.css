@@ -216,6 +216,17 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.target-icon-box {
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background: var(--CLOUD, #f4f4fd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0;
+  margin-bottom: 8px;
+}
+
 .target-item-title {
   color: #2e2f42;
   font-size: 20px;
@@ -299,6 +310,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .text {
@@ -392,4 +404,20 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
+}
+
+.social-icons-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.social-icon-circle {
+  width: 40px;
+  height: 40px;
+  background-color: var(--IRIS, #4d5ae5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
