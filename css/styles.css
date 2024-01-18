@@ -421,3 +421,30 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+.social-icon-footer {
+  width: 40px;
+  height: 40px;
+  background-color: var(--IRIS, #4d5ae5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-title {
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.container-logo {
+  margin-right: 120px;
+}
