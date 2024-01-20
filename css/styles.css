@@ -393,10 +393,7 @@ img {
 }
 
 .content-box {
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 164px;
-  padding-top: 40px;
+  padding: 40px 32px;
   transform: translateY(100%);
   position: absolute;
   top: 0;
@@ -481,6 +478,10 @@ img {
   justify-content: center;
 }
 
+.social-footer {
+  gap: 16px;
+}
+
 .social-icon-link {
   width: 40px;
   height: 40px;
@@ -528,6 +529,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .container-logo {
